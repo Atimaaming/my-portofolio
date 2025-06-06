@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil Web Aming Atimah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #ffffff;
+      margin: 0;
+      color: #1e293b;
+    }
+    header {
+      background-color: #1e40af;
+      padding: 1.8rem 0;
+      text-align: center;
+      color: #ffffff;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+    }
+    header h1 {
+      font-weight: 600;
+      font-size: 1.9rem;
+      letter-spacing: 1.2px;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-weight: 400;
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+    nav {
+      background: #3b82f6;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.9rem 0;
+    }
+    nav a {
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      background: #1e40af;
+      color: #ffffff;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    aside {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2rem 1.5rem;
+      color: #1e293b;
+      box-shadow: 0 7px 18px rgba(30,64,175,0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid #3b82f6;
+    }
+    aside img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #1e40af;
+      margin-bottom: 1.3rem;
+    }
+    aside h2 {
+      font-weight: 700;
+      margin-bottom: 0.1rem;
+      color: #1e40af;
+    }
+    aside h3 {
+      font-weight: 400;
+      margin-bottom: 1rem;
+      font-style: italic;
+      color: #2563eb;
+    }
+    aside p {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-bottom: 1.6rem;
+      line-height: 1.4;
+    }
+    aside section {
+      width: 100%;
+      margin-bottom: 1.8rem;
+    }
+    aside section h4 {
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 6px;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+      color: #1e40af;
+    }
+    aside section ul, aside section p {
+      font-size: 0.9rem;
+      line-height: 1.3;
+      list-style-type: disc;
+      padding-left: 1.3rem;
+      color: #1e293b;
+    }
+    aside section ul li {
+      margin-bottom: 0.5rem;
+    }
+    aside a {
+      color: #2563eb;
+      word-break: break-word;
+    }
+    aside a:hover {
+      text-decoration: underline;
+    }
+    section.profile-main {
+      background: #f0f9ff;
+      padding: 2rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(30,64,175,0.1);
+      color: #1e293b;
+    }
+    section.profile-main h2 {
+      color: #1e40af;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    section.profile-main p {
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      background-color: #1e40af;
+      color: #ffffff;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 700px) {
+      main {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+      }
+      aside {
+        flex-direction: row;
+        gap: 1.5rem;
+        padding: 1.5rem;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      aside img {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 0;
+        border-width: 3px;
+      }
+      aside section {
+        margin-bottom: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Profil Web Aming Atimah</h1>
+    <p>Mahasiswa Sistem Informasi | Fakultas Teknologi Informasi, UNMER Malang</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="tentang.html">Profil</a>
+    <a href="pengalaman.html">Pengalaman</a>
+    <a href="pendidikan.html">Pendidikan</a>
+    <a href="proyek.html">Proyek</a>
+  </nav>
+
+  <main>
+    <aside>
+      <img src="aming.jpeg" alt="Foto Aming Atimah" />
+      <div>
+        <h2>Aming Atimah</h2>
+        <h3>Rambu Sedu Tegi</h3>
+        <p>Saya adalah mahasiswa Sistem Informasi yang sedang membangun portofolio digital modern menggunakan teknologi web terkini.</p>
+
+        <section>
+          <h4>Kontak</h4>
+          <p>Email: <a href="mailto:atimaaminh@gmail.com">atimaaminh@gmail.com</a></p>
+          <p>Telepon: 0813-3846-9354</p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/atimaaminh" target="_blank">linkedin.com/in/atimaaminh</a></p>
+        </section>
+
+        <section>
+          <h4>Keahlian</h4>
+          <ul>
+            <li>Penguasaan HTML dan CSS</li>
+            <li>Dasar-Dasar JavaScript</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Minat</h4>
+          <ul>
+            <li>UI/UX Design</li>
+            <li>Pengembangan Web</li>
+          </ul>
+        </section>
+      </div>
+    </aside>
+
+    <section class="profile-main">
+      <h2>Selamat Datang!</h2>
+      <p>Perkenalkan, saya <strong>Aming Atimah Rambu Sedu Tegi</strong>, mahasiswa aktif dari Program Studi Sistem Informasi di Universitas Merdeka Malang.</p>
+      <p>Gunakan navigasi di atas untuk mengeksplorasi berbagai informasi tentang saya dan karya-karya saya.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Aming Atimah Rambu Sedu Tegi - Hak Cipta Dilindungi
+  </footer>
+</body>
+</html>
